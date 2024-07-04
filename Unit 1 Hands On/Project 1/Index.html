@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Shopping Catalog</title>
+</head>
+<body>
+    <h1>Shopping Catalog</h1>
+    <div class="container">
+        <table id="product-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Model</th>
+                    <th>Cost</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody id="product-list">
+                <!-- Product data will be inserted here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <form id="add-product-form">
+        <h2>Add Product</h2>
+        <label for="productName">Product Name:</label>
+        <input type="text" id="productName" placeholder="Product Name" required><br><br>
+        <label for="productModel">Product Model:</label>
+        <input type="text" id="productModel" placeholder="Product Model" required><br><br>
+        <label for="productCost">Product Cost:</label>
+        <input type="number" id="productCost" placeholder="Product Cost" required><br><br>
+        <label for="productQuantity">Product Quantity:</label>
+        <input type="number" id="productQuantity" placeholder="Product Quantity" required><br><br>
+        <button type="button" id="addProduct" class="styled-button">Add Product</button>
+        <button type="button" id="removeProduct" class="styled-button">Remove Product</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

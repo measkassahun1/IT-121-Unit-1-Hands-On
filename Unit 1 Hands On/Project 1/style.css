@@ -1,0 +1,61 @@
+body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.993);
+    background-color: #f0bee5;
+    height: 100vh;
+}
+.container {
+    background-color: rgb(255, 159, 242);
+    padding: 20px;
+    border-radius: 8px;
+    width: 700px;
+    max-width: 700px;
+    margin: auto;
+    
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: column;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #eb61d0;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f553d2;
+}
+
+#add-product-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #0d0b0b;
+    background-color: #ee87d7;
+    border-radius: 20px;
+}
+
+#add-product-form h2 {
+    margin-top: 0;
+
+}
+
+.styled-button{
+    background-color: rgb(130, 54, 148);
+    color:rgb(207, 226, 207);
+    border-radius: 10px;
+}
+  
